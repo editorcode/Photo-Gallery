@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+}
+
+.gif {
+    width: 500px;
+    height: 400px;
+    margin-top: 40px;
+}
+
+.imgg {
+    width: 200px;
+    height: 200px
+}
+
+h1 {
+    color: red;
+}
+
+.menu {
+    top: 0px;
+    cursor: pointer;
+    color: black;
+    position: fixed;
+    z-index: 10;
+    background-color: greenyellow;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.links {
+    font-family: monospace;
+    font-size: 20px;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: red;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.links a{
+    color: red;
+    text-decoration: none;
+}
+.links a:hover{
+    color:blue;
+}
